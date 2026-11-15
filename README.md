@@ -70,7 +70,7 @@ $ prompt-ledger stats
 Requires Python 3.9+.
 
 ```bash
-git clone <this repo>
+git clone https://github.com/zjy053231-crypto/prompt-ledger.git
 cd prompt-ledger
 python3 -m venv .venv
 .venv/bin/pip install -e .
