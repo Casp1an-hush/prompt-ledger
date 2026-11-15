@@ -24,5 +24,7 @@ def test_version_matches_pyproject():
     )
 
 
-def test_version_is_a_pep440_style_semver():
+def test_version_is_plain_semver():
+    # 项目刻意只用 x.y.z 三段纯数字；将来若要发预发布版（0.3.0rc1），
+    # 这里应当换成真正的 PEP 440 校验，而不是继续放宽这个名字。
     assert re.fullmatch(r"\d+\.\d+\.\d+", __version__), __version__
