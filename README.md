@@ -67,7 +67,7 @@ $ prompt-ledger stats
 
 ## Install
 
-Requires Python 3.9+.
+Requires Python 3.10+.
 
 Install straight from the repository — no clone needed:
 

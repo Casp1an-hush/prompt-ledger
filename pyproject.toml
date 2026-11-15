@@ -7,7 +7,7 @@ name = "prompt-ledger"
 version = "0.1.0"
 description = "Record, diff and analyse prompt iterations for AI-generated media."
 readme = "README.md"
-requires-python = ">=3.9"
+requires-python = ">=3.10"
 license = { text = "MIT" }
 authors = [{ name = "Capsp1an_hush" }]
 keywords = ["prompt-engineering", "aigc", "creative-work", "research-tool"]
