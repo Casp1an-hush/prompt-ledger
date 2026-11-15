@@ -69,15 +69,26 @@ $ prompt-ledger stats
 
 Requires Python 3.9+.
 
+Install straight from the repository — no clone needed:
+
+```bash
+pip install git+https://github.com/zjy053231-crypto/prompt-ledger.git
+```
+
+Or, to get the `prompt-ledger` command in an isolated environment:
+
+```bash
+pipx install git+https://github.com/zjy053231-crypto/prompt-ledger.git
+```
+
+To work on the code instead:
+
 ```bash
 git clone https://github.com/zjy053231-crypto/prompt-ledger.git
 cd prompt-ledger
 python3 -m venv .venv
-.venv/bin/pip install -e .
+.venv/bin/pip install -e ".[dev]"
 ```
-
-That installs the `prompt-ledger` command into the virtual environment. For
-development, use `pip install -e ".[dev]"` to also get pytest.
 
 ## Quick start
 
