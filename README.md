@@ -72,19 +72,19 @@ Requires Python 3.10+.
 Install straight from the repository — no clone needed:
 
 ```bash
-pip install git+https://github.com/zjy053231-crypto/prompt-ledger.git
+pip install git+https://github.com/Casp1an-hush/prompt-ledger.git
 ```
 
 Or, to get the `prompt-ledger` command in an isolated environment:
 
 ```bash
-pipx install git+https://github.com/zjy053231-crypto/prompt-ledger.git
+pipx install git+https://github.com/Casp1an-hush/prompt-ledger.git
 ```
 
 To work on the code instead:
 
 ```bash
-git clone https://github.com/zjy053231-crypto/prompt-ledger.git
+git clone https://github.com/Casp1an-hush/prompt-ledger.git
 cd prompt-ledger
 python3 -m venv .venv
 .venv/bin/pip install -e ".[dev]"
